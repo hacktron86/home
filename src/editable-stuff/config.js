@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Jonathon",
   middleName: "",
   lastName: "Hackbarth",
-  message: " Making things that matter to real people ",
+  message: " Making things that matter ",
   icons: [
     {
       image: "fa-github",
@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/jonathonhackbarth.png"),
   imageSize: 375,
   message:
-    "My name is Jonathon Hackbarth. I am a creator and a builder.",
+    "My name is Jonathon Hackbarth. I specialize in bridging the gap between business and technology, leveraging expertise in Microsoft 365, Power Platform, Azure, and enterprise automation to solve complex problems and drive meaningful change. With a unique blend of technical depth and strong communication skills, I excel at introducing emerging technologies, simplifying their adoption, and empowering teams to succeed. My career highlights include replacing multi-million-dollar contact centers with Power Apps solutions, building enterprise governance at scale (100k+ users), and mentoring low-code communities to modernize legacy processes. I’m passionate about working on impactful projects that make a difference while staying at the forefront of innovation.",
   resume: "https://docs.google.com/document/d/1enPulOw_YAEvC105e2d5cczOkIpw6vQ_VtAkaxMMtsQ/edit?tab=t.0",
 };
 
@@ -99,26 +99,34 @@ const leadership = {
 const skills = {
   show: true,
   heading: "Skills",
-  hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
-  ],
-  softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
-  ],
+hardSkills: [
+  { name: "Microsoft 365 Administration", value: 95 },
+  { name: "Power Platform", value: 90 },
+  { name: "Power Apps", value: 90 },
+  { name: "Power Automate", value: 90 },
+  { name: "Power BI", value: 90 },
+  { name: "Azure", value: 85 },
+  { name: "Automation", value: 85 },
+  { name: "App Registration", value: 85 },
+  { name: "Enterprise Applications", value: 85 },
+  { name: "PowerShell", value: 80 },
+  { name: "SharePoint Administration", value: 85 },
+  { name: "Web Design & Full Stack Development", value: 70 },
+  { name: "Networking & Hardware Management", value: 65 },
+],
+
+softSkills: [
+  { name: "Problem Solving", value: 95 },
+  { name: "Troubleshooting", value: 95 },
+  { name: "Communication & Collaboration", value: 90 },
+  { name: "Adaptability to Emerging Technologies", value: 95 },
+  { name: "Mentorship & Leadership", value: 85 },
+  { name: "Client Relationship Management", value: 90 },
+  { name: "Technical Training & Enablement", value: 85 },
+  { name: "Business-Technology Alignment", value: 90 },
+  { name: "Empathy & Patience with Clients", value: 85 },
+],
+
 };
 
 // GET IN TOUCH SECTION
