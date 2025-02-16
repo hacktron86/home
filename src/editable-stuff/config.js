@@ -144,20 +144,20 @@ const experiences = {
   data: [
     {
       role: 'M365 Administrator',// Here Add Company Name
-      companylogo: '<BestBuyLogo />',
+      companylogo: 'Test',
       date: 'June 2018 – Present',
     },
     {
       role: 'Various Roles',
-      companylogo: '<BestBuyLogo />',
+      companylogo: 'Test',
       date: 'August 2007 – June 2018',
     },
   ]
 }
 
 // Blog SECTION
-const blog = {
-  show: true,
-};
+// const blog = {
+//   show: true,
+// };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
