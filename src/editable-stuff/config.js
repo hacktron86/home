@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Jonathon",
   middleName: "",
   lastName: "Hackbarth",
-  message: " Tech ",
+  message: " Making things that matter to real people ",
   icons: [
     {
       image: "fa-github",
@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/jonathonhackbarth.png"),
   imageSize: 375,
   message:
-    "My name is Jonathon Hackbarth. I am a software engineer and technology enthusiast. I have a passion for learning and problem solving. I am currently working as a software engineer at Best Buy.",
+    "My name is Jonathon Hackbarth. I am a creator and a builder. If you want to make things that matter to real people then I want to help you.",
   resume: "https://docs.google.com/document/d/1enPulOw_YAEvC105e2d5cczOkIpw6vQ_VtAkaxMMtsQ/edit?tab=t.0",
 };
 
