@@ -51,7 +51,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: i.e.profilePictureLink="jhackb",
+  imageLink: require("../editable-stuff/jonathonhackbarth.png"),
   imageSize: 375,
   message:
     "My name is Jonathon Hackbarth. I am a software engineer and technology enthusiast. I have a passion for learning and problem solving. I am currently working as a software engineer at Best Buy.",
