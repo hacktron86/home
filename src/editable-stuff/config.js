@@ -144,12 +144,12 @@ const experiences = {
   data: [
     {
       role: 'M365 Administrator',// Here Add Company Name
-      companylogo: <BestBuyLogo />,
+      companylogo: '<BestBuyLogo />',
       date: 'June 2018 – Present',
     },
     {
       role: 'Various Roles',
-      companylogo: <BestBuyLogo />,
+      companylogo: '<BestBuyLogo />',
       date: 'August 2007 – June 2018',
     },
   ]
