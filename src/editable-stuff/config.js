@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/jonathonhackbarth.png"),
   imageSize: 375,
   message:
-    "My name is Jonathon Hackbarth. I am a creator and a builder. If you want to make things that matter to real people then I want to help you.",
+    "My name is Jonathon Hackbarth. I am a creator and a builder.",
   resume: "https://docs.google.com/document/d/1enPulOw_YAEvC105e2d5cczOkIpw6vQ_VtAkaxMMtsQ/edit?tab=t.0",
 };
 
