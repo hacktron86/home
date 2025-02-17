@@ -12,7 +12,7 @@ const mainBody = {
   message: " Making things that matter ",
   icons: [
     {
-      image: "fa-github",
+      image: "fab fa-github",
       url: "https://github.com/hacktron86",
     },
     // {
@@ -24,12 +24,12 @@ const mainBody = {
     //   url: "https://www.instagram.com/hashirshoaeb/",
     // },
     {
-      image: "fa-linkedin",
+      image: "fab fa-linkedin",
       url: "https://www.linkedin.com/in/jonathon-w-hackbarth/",
     },
     {
-      image: "fa-bksy",
-      url: "https://bsky.app/profile/hacktron.bsky.social",
+      image: "fas fa-envelope",
+      url: "mailto:dev@jonathonhackbarth.com",
     },
   ],
 };

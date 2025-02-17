@@ -20,7 +20,6 @@ import Skills from "./components/home/Skills";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
-
 import Experience from "./components/home/Experience";
 
 const Home = React.forwardRef((props, ref) => {
@@ -79,7 +78,9 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+    console.log(process.env.PUBLIC_URL),
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    {/* <BrowserRouter basename=""> */}
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />
